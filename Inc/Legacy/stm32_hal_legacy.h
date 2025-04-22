@@ -4330,7 +4330,9 @@ extern "C" {
   * @{
   */
 #if defined (STM32F7)
+#ifndef ART_ACCLERATOR_ENABLE
 #define ART_ACCLERATOR_ENABLE ART_ACCELERATOR_ENABLE
+#endif
 #endif /* STM32F7 */
 /**
   * @}
